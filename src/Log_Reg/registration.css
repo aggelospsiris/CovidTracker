@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.reg{
+  min-height: 118vh;
+  background: linear-gradient( to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%), url(virus.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.form-container{
+  background-color: rgba(0,0,0,0.4);
+  width: 500px;
+  height: 620px;
+  border-radius: 10px;
+  position:absolute;
+  top: 440px;
+  left: 50%;
+  transform: translate(20%, -50%);
+ 
+}
+
+.logoo h1 {
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  
+  
+}
+.form {
+  width:540px;
+  height:550px;
+	padding-top:60px;
+  padding-left: 0px;
+  text-align: center;
+	animation: drop 1.5s ease;
+	
+}
+
+.form h1 {
+  border-radius:25px;
+  width:200px; 
+	font-size: 30px;
+  color:rgb(207, 207, 207);
+	padding:20px;
+  margin-left: 32%;
+	background-color: rgb(70, 70, 70);
+}
+
+
+.form-input{
+  
+  margin: 8px;
+	border:none;
+	border-bottom: 3px solid rgb(0, 0, 0);
+	border-radius: 25px; 
+	padding:10px;
+}
+
+.form-inputs:focus {
+
+	border:none;
+	border-radius: 25px;
+	border:3px solid #555;
+
+}
+
+.form-inputs {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #ff0000;
+  font-size: 1rem;
+}
+
+
+
+
+.form-input::placeholder {
+  color: #595959;
+  font-size: 12px;
+}
+
+
+.form-input-btn {
+ 
+  display: inline-block;
+  width:200px;
+  height: 60px;
+  color: #000000;
+  background-color: rgb(44, 21, 255);
+  letter-spacing: 1px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2em;
+  overflow: hidden;
+  
+
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  color: #111;
+  background: hsl(241, 76%, 64%);
+  box-shadow: 0 0 50px hsl(241, 76%, 64%);
+}
+
+.form-input-login {
+  text-decoration: none;
+  border-radius: 5px;
+  width:250px; 
+
+	font-size: 12px;
+	color: red;
+
+}
+
+.form-input-login a {
+  text-decoration: none;
+	font-size: 20px;
+	color: rgb(72, 202, 235);
+	
+}
+.form-input-login a:hover{
+  color:#3700ff;
+ 
+}
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 10%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 1400px) {
+  main{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    
+
+  }
+.form-container{
+  background-color: rgba(0,0,0,0.4);
+  width: 500px;
+  height: 620px;
+  border-radius: 10px;
+  position:absolute;
+  top: 640px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+}

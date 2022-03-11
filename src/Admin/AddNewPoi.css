@@ -1,0 +1,69 @@
+.Contei{
+    background:linear-gradient(90deg, rgb(68, 67, 67) 0%, rgb(182, 180, 180) 100%);
+    min-height: 95vh;    
+}
+
+.update{
+    background-color: rgb(110, 110, 110);    
+    color:rgb(255, 255, 255);
+    font-size: 1.2rem;
+    padding: 3px;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+}
+.update:hover{
+    color: rgb(104, 104, 104);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px hsl(0, 0%, 0%);
+
+}
+
+.f{
+    background-color: rgb(161, 159, 159);
+    width:400px;
+    height: 150px;
+    padding-top: 35px;
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+    top:200px;
+    right:50%;
+    transform: translate(50%,-50%);  
+}
+
+
+.dele h1{
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    padding: 30px;  
+   margin:40px;
+   border-radius: 30px;
+}
+.dele{
+   background-color: rgba(170, 170, 170, 0.6);
+   width: 450px;
+   height: 350px;
+   position: absolute;
+   top:500px;
+    right:50%;
+    transform:translate(50%,-50%);    
+}
+
+.butn{
+    background-color: rgb(105, 105, 105);
+    color: rgb(240, 239, 239);
+    width: 180px;
+    height: 60px;
+    font-size: 2.2rem;
+    border-radius: 25px;
+    position: absolute;
+    top: 60%;
+    right: 30%;
+}
+.butn:hover{
+    color: rgb(34, 33, 33);
+    background-color: rgb(199, 199, 199);
+    box-shadow: 0 0 50px hsl(0, 0%, 0%);
+    cursor: pointer;
+}

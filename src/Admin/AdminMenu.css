@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navv{
+    background: linear-gradient(90deg, rgb(139, 139, 139) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    display: fixed;
+    position:sticky;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.containerr{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+}
+.nav-mennu{
+    display: grid;
+    padding-left: 20%;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 80px;
+    list-style: none;
+    text-align: center;
+    margin-left: 20px;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.logooo{
+    color: #fff;
+    justify-self: start;
+    margin-left: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    background-color: rgb(87, 87, 87);
+    border-radius: 10px;
+    padding:7px;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.LogButton {
+    position: absolute;
+    top: 30%;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 3px solid #666666; 
+    font-size: 1.2rem;
+    right: 60px;
+
+    
+}
+
+.LogButton:hover {
+  background-color: #979797; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.nav-itemmm:hover .submenu{
+    display: flex;
+    
+    position: absolute;
+    background-color: rgb(92, 92, 92);
+    margin-top: 0px;
+    margin-left: 0px;
+    text-decoration: none;
+  list-style: none;
+  }
+  .nav-itemmm:hover .submenu ul{
+    display: block;
+    text-decoration: none;
+    height: 130px;
+  list-style: none;
+    
+  }
+  .nav-itemmm:hover .submenu ul li {
+  text-decoration: none;
+  list-style: none;
+  color :black;
+
+}
+.nav-itemmm:hover .submenu ul li a{
+        text-decoration: none;
+        color:rgb(230, 230, 230);
+        font-size: 1.4rem;
+        padding-left:17px;
+        padding-right:17px;
+
+}
+.nav-itemmm:hover .submenu ul li a:hover{
+
+background-color: rgb(46, 46, 46);
+border-bottom: 4px solid #fff;
+}
